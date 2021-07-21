@@ -1,0 +1,60 @@
+:root{
+  --vermelho: #e50914;
+  --preta: #141414;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--preta);
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+.logo{
+  color: var(--vermelho);
+  font-family: 'Otomanopee One', sans-serif;
+  margin-left: 5px;
+}
+
+header nav a{
+  text-decoration: none;
+  color: #AAA;
+  margin-right: 10px;  
+}
+
+header nav a:hover{
+  color: #fff;
+}
+
+header .container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Elementos dos Filmes */
+
+.filme-principal{
+  font-size: 16px;
+  background: linear-gradient(rgb(0, 0, 0, .50), rgb(0, 0, 0, 100%)), url('/img/simpsons.jpg');
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal .descricao{
+  margin-bottom: 90px;
+}
+
+.titulo{
+  font-size: 40px;
+}
