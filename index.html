@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,7 +7,13 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
     </style>
-    <link rel="stylesheet" href="style/index.css" />
+    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="./style/responsive.css">
+
+    <!----Arquivos css Owl ----->
+    <link rel="stylesheet" href="./style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./style/owl/owl.theme.default.min.css">
+
     <title>FUNFLIX</title>
   </head>
   <body>
@@ -32,15 +38,76 @@
           </p>
           <div class="botoes">
             <button role="button" class="botao">
+              <i class="fas fa-play"></i>
               ASSISTIR
             </button>
             <button role="button" class="botao">
+              <i class="fas fa-info-circle"></i>
               MAIS INFORMAÇÕES
             </button>
           </div>  
         </div>      
       </div>
+      <div class="carosel-filmes">
+        <div class="owl-carousel owl-theme">
+          <div class="item, box-filme">
+            <img src="./img/filme1.jpg" alt="">
+          </div>
+          <div class="item, box-filme">
+            <img src="./img/filme2.jpg" alt="">
+          </div>
+          <div class="item, box-filme">
+            <img src="./img/filme3.jpg" alt="">
+          </div> 
+          <div class="item, box-filme">
+            <img src="./img/filme4.jpg" alt="">
+          </div> 
+          <div class="item, box-filme">
+            <img src="./img/filme5.jpg" alt="">
+          </div> 
+          <div class="item, box-filme">
+            <img src="./img/filme6.jpg" alt="">
+          </div> 
+          <div class="item, box-filme">
+            <img src="./img/filme7.jpg" alt="">
+          </div>   
+          <div class="item, box-filme">
+            <img src="./img/filme8.jpg" alt="">
+          </div> 
+          <div class="item, box-filme">
+            <img src="./img/filme1.jpg" alt="">
+          </div> 
+          <div class="item, box-filme">
+            <img src="./img/filme9.jpg" alt="">
+          </div> 
+          <div class="item, box-filme">
+            <img src="./img/filme10.jpg" alt="">
+          </div> 
+          <div class="item, box-filme">
+            <img src="./img/filme11.jpg" alt="">
+          </div> 
+          <div class="item, box-filme">
+            <img src="./img/filme12.jpg" alt="">
+          </div>
+          <div class="item, box-filme">
+            <img src="./img/filme13.jpg" alt="">
+          </div> 
+          <div class="item, box-filme">
+            <img src="./img/filme14.jpg" alt="">
+          </div> 
+          <div class="item, box-filme">
+            <img src="./img/filme15.jpg" alt="">
+          </div> 
+      </div>
+      </div>  
     </main>
+    <section>
+      <script src="https://kit.fontawesome.com/b0df8572a0.js" crossorigin="anonymous"></script>
+      <!----Arquivos js Owl ----->
+      <script src="./js/owl/jquery.min.js"></script>
+      <script src="./js/owl/owl.carousel.min.js"></script>
+      <script src="./js/owl/setup.js"></script>
+    </section>
 
   </body>
 </html>

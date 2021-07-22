@@ -1,0 +1,34 @@
+@media screen and (max-width: 750px) {
+  header .container{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .botao{
+    margin-top: 10px;
+    height: 60px;
+    width: 200px;
+    margin-left: 0;
+  }
+
+  .descricao{
+    margin-right: 15px;
+  }
+
+  .titulo{
+    margin-right: 15px;
+  }
+
+  .box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+}
+
+@media screen and (min-height: 1000px) {
+  .descricao{
+    width: 70%;
+  }
+}
