@@ -1,2 +1,3 @@
 # Funflix
-Interface de um app streaming de comedia
+
+Interface of a streaming comedy APP.
